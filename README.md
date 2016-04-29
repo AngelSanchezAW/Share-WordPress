@@ -7,6 +7,7 @@ No soy muy fan de usar plugins, por esta razón decido implementar mis códigos 
 1.- Encuentra el archivo de estilo de tu tema, por lo regular se encuentra en la siguiente ruta "/wp-content/themes/nombre-de-tu-tema" con el nombre de style.css.
 <br><br>
 2.- Coloca el siguiente código al final del archivo:<br>
+<code>
 .flex-container{  
 	display: none;
 }
@@ -45,8 +46,10 @@ No soy muy fan de usar plugins, por esta razón decido implementar mis códigos 
 		color: #6E6E6E;
 	}
 }
+</code>
 <br><br>
 3.- Encuentra el archivo single.php en la misma ruta "/wp-content/themes/nombre-de-tu-tema" y coloca lo siguiente al final del mismo:<br>
+<code>
 <div class="flex-container">
     <div class="flex-itemf">
 	   <a style="color:white;" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo the_permalink(); ?>" title="Compartir en Facebook" target="_blank">
@@ -66,6 +69,7 @@ No soy muy fan de usar plugins, por esta razón decido implementar mis códigos 
         <?php }?>
 	</div>         
 </div>
+</code>
 <br><br>
 4.- Guarda cambios.
 <br><br>
