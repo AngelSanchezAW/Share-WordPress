@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Share</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style> 
+	*{
+		padding: 0px;
+		margin: 0px;
+	}
+   .flex-container {
+	    display: -webkit-flex;
+	    display: flex;
+	    position:fixed; 
+	    bottom:0; 
+	    z-index:999999;
+	    width: 100%;
+	}
+    .flex-itemf, .flex-itemt{
+    	width: 50%;
+    	padding: 10px;
+    	color: white;
+    	text-align: center;
+    	font-size: 28px;
+    }	
+	.flex-itemf {
+	    background-color: #3b5998; 
+	}
+	.flex-itemt{
+		background: #00aced;
+	}
+</style>
+<body>
+	<div class="flex-container">
+	    <div class="flex-itemf">
+		   <a style="color:white;" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo the_permalink(); ?>" title="Compartir en Facebook" target="_blank">
+		        <i class="fa fa-facebook"></i>
+		    </a>
+		</div>
+		<div class="flex-itemt">
+		    <a style="color:white;" href="https://twitter.com/intent/tweet?text=<?php echo the_title(); ?>&url=<?php echo the_permalink();?>&via=AzulWebBlog%20www.azulweb.net" title="Compartir en Twitter" target="_blank">
+		        <i class="fa fa-twitter"></i>
+		    </a>
+		</div>    
+	</div>
+</body>
+</html>
