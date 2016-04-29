@@ -1,25 +1,10 @@
-<<<<<<< HEAD
 <style>
-/*-----------------SHARE MOVIL-----------------*/
+	/*-----------------SHARE MOVIL-----------------*/
 .flex-container{
-    display: none;
+	display: none;
 }
 @media only screen  and (max-width: 600px) { 
 	.flex-container {
-=======
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Share</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<style> 
-	*{
-		padding: 0px;
-		margin: 0px;
-	}
-   .flex-container {
->>>>>>> e261324d9a55f7acdaba45200276c742ec5335cd
 	    display: -webkit-flex;
 	    display: flex;
 	    position:fixed; 
@@ -28,19 +13,11 @@
 	    width: 100%;
 	}
     .flex-itemf, .flex-itemt{
-<<<<<<< HEAD
     	width: 25%;
     	padding: 10px;
     	color: white;
     	text-align: center;
     	font-size: 15px;
-=======
-    	width: 50%;
-    	padding: 10px;
-    	color: white;
-    	text-align: center;
-    	font-size: 28px;
->>>>>>> e261324d9a55f7acdaba45200276c742ec5335cd
     }	
 	.flex-itemf {
 	    background-color: #3b5998; 
@@ -48,7 +25,6 @@
 	.flex-itemt{
 		background: #00aced;
 	}
-<<<<<<< HEAD
 	.flex-items{
 		background: #E6E6E6;
 		width: 50%;
@@ -64,7 +40,6 @@
 }
 /*-----------------SHARE MOVIL-----------------*/
 </style>
-
 <div class="flex-container">
     <div class="flex-itemf">
 	   <a style="color:white;" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo the_permalink(); ?>" title="Compartir en Facebook" target="_blank">
@@ -84,21 +59,3 @@
         <?php }?>
 	</div>         
 </div>
-=======
-</style>
-<body>
-	<div class="flex-container">
-	    <div class="flex-itemf">
-		   <a style="color:white;" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo the_permalink(); ?>" title="Compartir en Facebook" target="_blank">
-		        <i class="fa fa-facebook"></i>
-		    </a>
-		</div>
-		<div class="flex-itemt">
-		    <a style="color:white;" href="https://twitter.com/intent/tweet?text=<?php echo the_title(); ?>&url=<?php echo the_permalink();?>&via=AzulWebBlog%20www.azulweb.net" title="Compartir en Twitter" target="_blank">
-		        <i class="fa fa-twitter"></i>
-		    </a>
-		</div>    
-	</div>
-</body>
-</html>
->>>>>>> e261324d9a55f7acdaba45200276c742ec5335cd
