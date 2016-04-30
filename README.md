@@ -1,6 +1,6 @@
 <h1>Botones de compartir en redes sociales y botón de siguiente post para versión móvil de tu sitio con WordPress.</h1> 
 <img src="http://www.azulweb.net/wp-content/uploads/2016/04/ShareMovil-WordPress.png"><br><br>
-No soy muy fan de usar plugins, por esta razón decido implementar mis códigos en mi sitio web, esto me ayuda a poder tener libertar de modificaciones y al mismo tiempo evito consumir recursos al tener muchos plugins. 
+No soy muy fan de usar plugins, por esta razón decido implementar mis códigos en mi sitio web, esto me ayuda a poder tener libertar de modificaciones y al mismo tiempo evito consumir recursos. 
 
 <h2>Instalación.</h2>
 
